@@ -1,0 +1,42 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #7E7DFF;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+}
+
+.App form input {
+  box-sizing: border-box;
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border-width: 0;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.App form button {
+  box-sizing: border-box;
+  width: 350px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  border-width: 0;
+  background-color: #0f0;
+  color: #fff;
+}
